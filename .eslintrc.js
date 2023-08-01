@@ -1,0 +1,26 @@
+module.exports = {
+  env: {
+    browser: false,
+    commonjs: true,
+    node: true,
+  },
+  extends: ['eslint:recommended', 'prettier', 'airbnb-base'],
+  parser: 'babel-eslint',
+  rules: {
+    'no-undef': 1,
+    'linebreak-style': 0,
+    'comma-dangle': 0,
+    'prefer-const': 0,
+    'global-require': 0,
+    'import/no-dynamic-require': 0,
+    'max-len': 0,
+    'camelcase': 0,
+    'radix': 0,
+    'quote-props': 0,
+    'no-plusplus': 0,
+    'no-continue': 0,
+    'no-return-assign': 0,
+    'no-param-reassign': 0,
+    'class-methods-use-this': 0,
+  },
+};
